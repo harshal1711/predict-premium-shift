@@ -1,4 +1,4 @@
-# xyz-adopter-prediction
+# Predicting Premium Subscription Adoption on a Freemium Music Platform
 
 Predictive modeling project to identify potential premium subscribers on a freemium music-listening social platform. Built using an imbalanced dataset from a prior marketing campaign, this project develops a classification model to help XYZ effectively target users likely to adopt the premium service in the next 6 months.
 
@@ -76,7 +76,7 @@ XYZ should:
 
 - `Codefile.pdf` – Full technical write-up with code, metrics, and visualizations
 - `presentation.mp4` – 5-minute executive-level presentation (managerial document)
-  🎥 [Watch the 5-minute presentation](docs/presentation.mp4)
+ [🎥 View Presentation (MP4)](https://github.com/harshal1711/predict-premium-shift/raw/main/docs/presentation.mp4)
 
 
 ---
