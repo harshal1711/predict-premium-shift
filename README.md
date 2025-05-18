@@ -4,13 +4,13 @@ Predictive modeling project to identify potential premium subscribers on a freem
 
 ---
 
-## 🎯 Business Context
+## Business Context
 
 XYZ is a music-based social networking platform that uses a freemium model—offering basic services for free and premium features via subscription. To optimize its marketing budget and boost conversion rates, XYZ needs to predict which users are most likely to convert to paid subscribers when targeted by future campaigns.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 - **Total records**: 41,540 users
 - **Positive class (adopters)**: 1,540 users (3.7%)
@@ -26,14 +26,14 @@ Key variable types:
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
 We evaluated multiple classifiers and feature selection strategies, including:
 
 ### Models Explored:
 - **K-Nearest Neighbors (KNN)**
 - **Naive Bayes**
-- **Decision Tree** ✅ *(Final Model)*
+- **Decision Tree** *(Final Model)*
 
 ### Key Techniques:
 - **Oversampling using `ROSE`** to handle severe class imbalance
@@ -42,7 +42,7 @@ We evaluated multiple classifiers and feature selection strategies, including:
 
 ---
 
-## 📊 Metrics Philosophy
+## Metrics Philosophy
 
 We selected **Recall** as the primary metric, aligned with business needs:
 > “Better to target more non-adopters than to miss a potential high-value adopter.”
@@ -55,13 +55,13 @@ We selected **Recall** as the primary metric, aligned with business needs:
 
 ---
 
-## 🚀 Key Insight
+## Key Insight
 
 Top 25% users (by predicted probability) are **twice as likely** to convert compared to a random sample. This makes the lift curve a valuable targeting strategy for future campaigns.
 
 ---
 
-## 📌 Final Recommendation
+## Final Recommendation
 
 XYZ should:
 - Use the Decision Tree model to predict likely adopters
@@ -72,7 +72,7 @@ XYZ should:
 
 ---
 
-## 📂 Deliverables
+## Deliverables
 
 - `Codefile.pdf` – Full technical write-up with code, metrics, and visualizations
 - `presentation.mp4` – 5-minute executive-level presentation (managerial document)
@@ -81,7 +81,7 @@ XYZ should:
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - Harshal Sable  
 - Abraham George  
